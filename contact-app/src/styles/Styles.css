@@ -1,0 +1,140 @@
+/* Styles.css */
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-shadow: 1px 1px 2px gold;
+}
+
+.headerSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.headerButtons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
+
+.deleteButton {
+    background-color: red;
+}
+
+.deleteButton:hover {
+    background-color: darkred;
+}
+
+
+
+.kontakt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Optional: Fügt eine Trennlinie zwischen den Kontakten hinzu */
+    margin-bottom: 10px;
+}
+
+.kontakt p {
+    margin: 0 10px;
+    
+}
+
+.kontaktHeader span, .kontakt span {
+    flex: 1; /* Jede Spalte nimmt den gleichen Platz ein */
+}
+
+.kontaktHeader {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f5f5f5; /* Hintergrundfarbe für die Kopfzeile */
+    border-bottom: 2px solid #ddd; /* Trennlinie unter der Kopfzeile */
+    font-weight: bold; /* Schrift fett für die Kopfzeile */
+}
+
+.profileLayout {
+    display: flex;
+    height: 100vh; /* Setzt die Höhe des Layouts auf die gesamte Viewport-Höhe */
+}
+
+.kontaktListeBereich, .zukuenftigerBereich {
+    flex: 1;
+    padding: 20px;
+    height: 100%; /* Stellt sicher, dass die Bereiche die volle Höhe einnehmen */
+}
+
+.kontaktListeBereich {
+    border-right: 2px solid #ddd; /* Trennstrich als rechter Rand */
+}
+
+
+.kontaktHervorgehoben {
+    background-color: #f0f0f0; /* Oder eine andere Farbe Ihrer Wahl */
+    border: 1px solid #d0d0d0;
+}
+
+
+
+
+/* Bestehende Stile ... */
+
+.createButton {
+    background-color: #28a745; /* Grüne Hintergrundfarbe */
+    margin-left: 10px; /* Abstand zum vorherigen Element */
+}
+
+.createButton:hover {
+    background-color: #218838; /* Dunklere grüne Farbe beim Hover */
+}
+
+/* Verbesserung der Stilisierung für Bearbeiten- und Löschen-Buttons */
+.button.editButton, .button.deleteButton {
+    margin: 0 5px; /* Abstand zwischen den Buttons */
+    padding: 5px 15px; /* Etwas mehr Polsterung */
+}
+
+/* Optional: Stil für eine abgerundete Schaltfläche */
+.roundedButton {
+    border-radius: 20px; /* Stärker abgerundete Ecken */
+}
+
+/* Optional: Stil für eine kleine Schaltfläche */
+.smallButton {
+    padding: 2px 6px; /* Weniger Polsterung für kleinere Schaltflächen */
+    font-size: 0.85em; /* Kleinere Schriftgröße */
+}
+
+
+.cancelButton {
+    background-color: #6c757d; /* Graue Hintergrundfarbe */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancelButton:hover {
+    background-color: #5a6268; /* Dunkleres Grau beim Hover */
+}
